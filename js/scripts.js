@@ -15,10 +15,11 @@ var pigLatin = function(phraseArray) {
       return phraseArray;
     }
 
-    phraseArray.push(phraseArray[i]);
-    phraseArray.splice(i, 1);
+    debugger;
+    phraseArray.push(phraseArray[0]);
+    phraseArray.splice(0, 1);
   }
-  
+
   phraseArray.push("a");
   return phraseArray;
 };
